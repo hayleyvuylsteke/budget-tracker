@@ -12,7 +12,7 @@ request.onsuccess = function(event) {
     db = event.target.result;
   
     if (navigator.onLine) {
-      // uploadBudgetItem();
+      uploadBudgetItem()
     }
   };
   
@@ -66,4 +66,4 @@ request.onsuccess = function(event) {
     };
   }
 
-  window.addEventListener('online', uploadPizza);
+  window.addEventListener('online', uploadBudgetItem);
