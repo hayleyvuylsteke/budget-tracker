@@ -25,7 +25,7 @@ request.onsuccess = function(event) {
   
     const budgetObjectStore = transaction.objectStore('new_budget_item');
   
-    butgetObjectStore.add(record);
+    budgetObjectStore.add(record);
   }
 
   function uploadBudgetItem() {
